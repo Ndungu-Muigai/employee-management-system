@@ -5,6 +5,7 @@ import { Slide, ToastContainer } from 'react-toastify'
 
 import Login from "./Home/Pages/Login"
 import PasswordReset from "./Home/Pages/Password Reset/Home"
+import ErrorPage from "./Error Page/Page"
 const App = () => 
 {
   return ( 
@@ -14,6 +15,7 @@ const App = () =>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/password-reset/*" element={<PasswordReset/>}></Route>
+        <Route path="*" element={<ErrorPage/>}></Route>
       </Routes>
     </div>
    )
