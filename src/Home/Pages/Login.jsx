@@ -111,7 +111,7 @@ const Login = () =>
                         </div>
                     </div>
 
-                    <div className="flex flex-col md:flex-row justify-between items-center">
+                    <div className="flex justify-between items-center gap-5 md:gap-0">
                         <label className="label">
                             <input type="checkbox" defaultChecked className="checkbox checkbox-accent checkbox-sm" checked={rememberMe} onChange={handleRememberMeChange}/>
                             Remember me
