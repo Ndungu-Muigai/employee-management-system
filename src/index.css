@@ -34,6 +34,7 @@ input::-ms-reveal, input::-ms-clear
   background-color: rgb(36, 36, 36) !important;
   color: white !important;
 }
+
 /* Fix Edge forcing black SVG icons on ghost buttons */
 .btn-ghost svg 
 {
@@ -46,9 +47,9 @@ input::-ms-reveal, input::-ms-clear
 
 .grid-2
 {
-  @apply w-full md:w-1/2 bg-gray-50 flex items-center justify-center px-8 py-12;
+  @apply w-full md:w-1/2 bg-gray-50 flex items-center justify-center px-8;
 }
 .form-styling
 {
-  @apply w-full max-w-xl bg-white shadow-xl rounded-2xl p-8 space-y-6;
+  @apply w-full max-w-xl bg-white shadow-xl rounded-2xl p-8 space-y-4;
 }
