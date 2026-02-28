@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* Remove Chrome autofill grey/yellow background */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, select:-webkit-autofill 
+{
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+  box-shadow: 0 0 0px 1000px white inset !important;
+  -webkit-text-fill-color: #000 !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Make date picker icon visible on Edge + Chrome */
+input[type="date"]::-webkit-calendar-picker-indicator 
+{
+  filter: brightness(0);
+  cursor: pointer;
+}
+
+/* Prevent Tailwind or DaisyUI from hiding it */
+input[type="date"] 
+{
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+}
+
+/* Remove Microsoft Edge built-in password reveal icon */
+input::-ms-reveal, input::-ms-clear 
+{
+  display: none;
+}
+.table thead tr 
+{
+  background-color: rgb(36, 36, 36) !important;
+  color: white !important;
+}
+/* Fix Edge forcing black SVG icons on ghost buttons */
+.btn-ghost svg 
+{
+  color: white !important;
+}
+.btn-ghost:hover svg 
+{
+  color: white !important;
+}
+
+.grid-2
+{
+  @apply w-full md:w-1/2 bg-gray-50 flex items-center justify-center px-8 py-12;
+}
+.form-styling
+{
+  @apply w-full max-w-xl bg-white shadow-xl rounded-2xl p-8 space-y-6;
+}
