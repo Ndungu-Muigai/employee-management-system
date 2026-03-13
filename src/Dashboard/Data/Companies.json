@@ -1,0 +1,22 @@
+[
+    { 
+        "value": "Mobikey Kenya", 
+        "label": "Mobikey Kenya", 
+        "countryCode": "KE" 
+    },
+    { 
+        "value": "JAP Assembler Kenya", 
+        "label": "JAP Assembler Kenya", 
+        "countryCode": "KE"
+    },
+    { 
+        "value": "Mobikey Uganda", 
+        "label": "Mobikey Uganda", 
+        "countryCode": "UG" 
+    },
+    { 
+        "value": "Mobikey Tanzania", 
+        "label": "Mobikey Tanzania", 
+        "countryCode": "TZ"
+    }
+]

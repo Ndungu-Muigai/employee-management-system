@@ -1,0 +1,136 @@
+{
+  "KE": [
+    {
+      "id": 1,
+      "department": "Administration"
+    },
+    {
+      "id": 2,
+      "department": "After Sales"
+    },
+    {
+      "id": 3,
+      "department": "Assembly"
+    },
+    {
+      "id": 4,
+      "department": "Cleaning"
+    },
+    {
+      "id": 5,
+      "department": "Finance and Administration"
+    },
+    {
+      "id": 6,
+      "department": "Logistics, HR and Administration"
+    },
+    {
+      "id": 7,
+      "department": "Sales-Administration"
+    },
+    {
+      "id": 8,
+      "department": "Sales-MAN"
+    },
+    {
+      "id": 9,
+      "department": "Sales-Hyundai"
+    },
+    {
+      "id": 10,
+      "department": "Sales-Mobimotors"
+    },
+    {
+      "id": 11,
+      "department": "Sales-Powertrac"
+    },
+    {
+      "id": 12,
+      "department": "Warehouse"
+    },
+    {
+      "id": 13,
+      "department": "Workshop"
+    }
+  ],
+  
+  "UG": 
+  [
+    {
+      "id": 1,
+      "department": "Administration"
+    },
+    {
+      "id": 2,
+      "department": "After Sales"
+    },
+    {
+      "id": 3,
+      "department": "Cleaning"
+    },
+    {
+      "id": 4,
+      "department": "Finance"
+    },
+    {
+      "id": 5,
+      "department": "Logistics"
+    },
+    {
+      "id": 6,
+      "department": "Sales"
+    },
+    {
+      "id": 7,
+      "department": "Warehouse"
+    },
+    {
+      "id": 8,
+      "department": "Workshop"
+    },
+    {
+      "id": 9,
+      "department": "Human Resources"
+    }
+  ],
+
+  "TZ": 
+  [
+    {
+      "id": 1,
+      "department": "Administration"
+    },
+    {
+      "id": 2,
+      "department": "After Sales"
+    },
+    {
+      "id": 3,
+      "department": "Cleaning"
+    },
+    {
+      "id": 4,
+      "department": "Finance"
+    },
+    {
+      "id": 5,
+      "department": "Logistics"
+    },
+    {
+      "id": 6,
+      "department": "Sales"
+    },
+    {
+      "id": 7,
+      "department": "Warehouse"
+    },
+    {
+      "id": 8,
+      "department": "Workshop"
+    },
+    {
+      "id": 9,
+      "department": "Human Resources"
+    }
+  ]
+}

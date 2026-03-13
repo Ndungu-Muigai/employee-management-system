@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 import { Routes, Route } from "react-router-dom"
 import { useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
@@ -7,6 +8,9 @@ import ErrorPage from "../Error Page/Page"
 import Sidebar from "./Components/Sidebar"
 
 import Dashboard from "./Home/Page"
+import LeaveLayout from "./Leave/Layout"
+import UserLayout from "./Users/Layout"
+import SettingsLayout from "./Settings/Layout"
 
 const DashboardLayout = () => 
 {
@@ -40,6 +44,9 @@ const DashboardLayout = () =>
                 <main className="flex-1 mt-16 overflow-auto bg-gray-50 px-1 pt-4">
                     <Routes>
                         <Route path="/" element={<Dashboard user={user}/>} />
+                        <Route path="/leave/*" element={<LeaveLayout user={user} userGender={userGender} country={country} />} />
+                        <Route path="/users/*" element={<UserLayout user={user} userGender={userGender} country={country} />} />
+                        <Route path="/settings/*" element={<SettingsLayout user={user} userGender={userGender} country={country} />} />
                         <Route path="*" element={<ErrorPage />} />
                     </Routes>
                 </main>

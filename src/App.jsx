@@ -1,4 +1,5 @@
 import "react-toastify/dist/ReactToastify.css";
+import 'react-phone-number-input/style.css'
 
 import { Routes, Route } from "react-router-dom"
 import { Slide, ToastContainer } from 'react-toastify'
